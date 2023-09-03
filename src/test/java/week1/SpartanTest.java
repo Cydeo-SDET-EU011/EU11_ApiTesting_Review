@@ -23,6 +23,9 @@ public class SpartanTest {
 
         int statusCode = response.statusCode();
         Assertions.assertEquals(200,statusCode);
+
+        System.out.println(response.header("Transfer-Encoding"));
+        System.out.println(response.header("Date"));
     }
 
     @Test
@@ -33,6 +36,8 @@ public class SpartanTest {
         String expected = "application/xml";
         String actual = response.contentType();
         Assertions.assertEquals(expected,actual);
+
+
     }
 
 
