@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="264b72bb-6392-463e-8a36-9272de880517" name="Changes" comment="week2 is added.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/HamcrestMathcersIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/ZipCodePractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week2/DemoqaBookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week2/JsonToJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week2/HamcrestMathcersIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week2/HamcrestMathcersIntro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +51,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.HamcrestMathcersIntro.test2">
-    <configuration name="HamcrestMathcersIntro.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DemoqaBookTest.test1">
+    <configuration name="DemoqaBookTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU11_ApiTesting_Review" />
       <extension name="coverage">
         <pattern>
@@ -59,14 +61,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.HamcrestMathcersIntro" />
+      <option name="MAIN_CLASS_NAME" value="week2.DemoqaBookTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HamcrestMathcersIntro.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HamcrestMathcersIntro.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU11_ApiTesting_Review" />
       <extension name="coverage">
         <pattern>
@@ -76,55 +78,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="week2" />
       <option name="MAIN_CLASS_NAME" value="week2.HamcrestMathcersIntro" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HamcrestMathcersIntro.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU11_ApiTesting_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week2" />
+      <option name="MAIN_CLASS_NAME" value="week2.HamcrestMathcersIntro" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonToJava.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU11_ApiTesting_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week2" />
+      <option name="MAIN_CLASS_NAME" value="week2.JsonToJava" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonToJava.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU11_ApiTesting_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week2" />
+      <option name="MAIN_CLASS_NAME" value="week2.JsonToJava" />
       <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonPathMethod.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU11_ApiTesting_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.JsonPathMethod" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Params.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU11_ApiTesting_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.Params" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZipCodePractice.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU11_ApiTesting_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.ZipCodePractice" />
-      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HamcrestMathcersIntro.test2" />
-        <item itemvalue="JUnit.HamcrestMathcersIntro.test1" />
-        <item itemvalue="JUnit.ZipCodePractice.test1" />
-        <item itemvalue="JUnit.JsonPathMethod.test3" />
-        <item itemvalue="JUnit.Params.test3" />
+        <item itemvalue="JUnit.DemoqaBookTest.test1" />
+        <item itemvalue="JUnit.JsonToJava.test2" />
+        <item itemvalue="JUnit.JsonToJava.test1" />
+        <item itemvalue="JUnit.HamcrestMathcersIntro.test5" />
+        <item itemvalue="JUnit.HamcrestMathcersIntro.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693756095707</updated>
       <workItem from="1693756096771" duration="2353000" />
-      <workItem from="1694346816686" duration="9676000" />
+      <workItem from="1694346816686" duration="15282000" />
     </task>
     <task id="LOCAL-00001" summary="project created.">
       <option name="closed" value="true" />
@@ -191,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694353698433</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="week2 is added.">
+      <option name="closed" value="true" />
+      <created>1694357280147</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694357280147</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
