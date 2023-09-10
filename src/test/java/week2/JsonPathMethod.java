@@ -8,6 +8,8 @@ import org.junit.jupiter.api.*;
 
 import java.util.*;
 
+import static io.restassured.RestAssured.given;
+
 public class JsonPathMethod {
 
     @BeforeAll
@@ -41,5 +43,27 @@ public class JsonPathMethod {
 
         List<Long> phones = jsonPath.getList("phone");
         System.out.println("phones = " + phones);
+    }
+
+    @Test
+    public void test3(){
+        Map<String,Object> queryParams = new HashMap<>();
+        queryParams.put("nameContains","da");
+        queryParams.put("gender","Male");
+
+        Response responseMap = given().accept(ContentType.JSON)
+                .and().queryParams(queryParams)
+                .when().get("/api/spartans/search");
+
+        responseMap.prettyPrint();
+        JsonPath jsonPath = responseMap.jsonPath();
+        String name = jsonPath.getString("content[0].name");
+        System.out.println("name = " + name);
+
+        Long phone = jsonPath.getLong("content[1].phone");
+        System.out.println("phone = " + phone);
+
+        int total = jsonPath.getInt("totalElement");
+        System.out.println("total = " + total);
     }
 }

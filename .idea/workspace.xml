@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="264b72bb-6392-463e-8a36-9272de880517" name="Changes" comment="several tests are added.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/JsonPathMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/PathMethod.java" afterDir="false" />
+    <list default="true" id="264b72bb-6392-463e-8a36-9272de880517" name="Changes" comment="week2 is added.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week2/Params.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week2/JsonPathMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week2/JsonPathMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,23 +49,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.JsonPathMethod.test2">
-    <configuration name="JsonPathMethod.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU11_ApiTesting_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.JsonPathMethod" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JsonPathMethod.test3">
     <configuration name="JsonPathMethod.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU11_ApiTesting_Review" />
       <extension name="coverage">
@@ -82,7 +66,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonPathMethod.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU11_ApiTesting_Review" />
       <extension name="coverage">
         <pattern>
@@ -91,13 +75,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.PathMethod" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="week2.JsonPathMethod" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathMethod.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Params.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU11_ApiTesting_Review" />
       <extension name="coverage">
         <pattern>
@@ -106,14 +91,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.PathMethod" />
+      <option name="MAIN_CLASS_NAME" value="week2.Params" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathMethod.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Params.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU11_ApiTesting_Review" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +107,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week2" />
-      <option name="MAIN_CLASS_NAME" value="week2.PathMethod" />
+      <option name="MAIN_CLASS_NAME" value="week2.Params" />
       <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Params.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU11_ApiTesting_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week2" />
+      <option name="MAIN_CLASS_NAME" value="week2.Params" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JsonPathMethod.test3" />
+        <item itemvalue="JUnit.Params.test3" />
+        <item itemvalue="JUnit.Params.test2" />
+        <item itemvalue="JUnit.Params.test1" />
         <item itemvalue="JUnit.JsonPathMethod.test2" />
-        <item itemvalue="JUnit.JsonPathMethod.test1" />
-        <item itemvalue="JUnit.PathMethod.test2" />
-        <item itemvalue="JUnit.PathMethod.test1" />
-        <item itemvalue="JUnit.PathMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693756095707</updated>
       <workItem from="1693756096771" duration="2353000" />
-      <workItem from="1694346816686" duration="2816000" />
+      <workItem from="1694346816686" duration="6737000" />
     </task>
     <task id="LOCAL-00001" summary="project created.">
       <option name="closed" value="true" />
@@ -174,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693760700402</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="week2 is added.">
+      <option name="closed" value="true" />
+      <created>1694350403627</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694350403627</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +203,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project created." />
     <MESSAGE value="several tests are added." />
-    <option name="LAST_COMMIT_MESSAGE" value="several tests are added." />
+    <MESSAGE value="week2 is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="week2 is added." />
   </component>
 </project>
