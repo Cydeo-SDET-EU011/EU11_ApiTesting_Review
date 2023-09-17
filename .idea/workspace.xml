@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="264b72bb-6392-463e-8a36-9272de880517" name="Changes" comment="week3 is under process...">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week3/DeleteMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week3/PatchMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week3/PostMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week3/PutMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week3/BookitAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week3/SpartanAuth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +49,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.DeleteMethod.test1">
-    <configuration name="DeleteMethod.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BookitAuth.test2">
+    <configuration name="BookitAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU11_ApiTesting_Review" />
       <extension name="coverage">
         <pattern>
@@ -61,14 +59,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week3" />
-      <option name="MAIN_CLASS_NAME" value="week3.DeleteMethod" />
+      <option name="MAIN_CLASS_NAME" value="week3.BookitAuth" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookitAuth.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU11_ApiTesting_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week3" />
+      <option name="MAIN_CLASS_NAME" value="week3.BookitAuth" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatchMethod.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookitAuth.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU11_ApiTesting_Review" />
       <extension name="coverage">
         <pattern>
@@ -77,30 +90,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week3" />
-      <option name="MAIN_CLASS_NAME" value="week3.PatchMethod" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostMethod.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU11_ApiTesting_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week3" />
-      <option name="MAIN_CLASS_NAME" value="week3.PostMethod" />
+      <option name="MAIN_CLASS_NAME" value="week3.BookitAuth" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostMethod.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpartanAuth.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU11_ApiTesting_Review" />
       <extension name="coverage">
         <pattern>
@@ -109,14 +106,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week3" />
-      <option name="MAIN_CLASS_NAME" value="week3.PostMethod" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="MAIN_CLASS_NAME" value="week3.SpartanAuth" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PutMethod.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpartanAuth.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU11_ApiTesting_Review" />
       <extension name="coverage">
         <pattern>
@@ -125,8 +122,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week3" />
-      <option name="MAIN_CLASS_NAME" value="week3.PutMethod" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="week3.SpartanAuth" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DeleteMethod.test1" />
-        <item itemvalue="JUnit.PatchMethod.test1" />
-        <item itemvalue="JUnit.PutMethod.test1" />
-        <item itemvalue="JUnit.PostMethod.test3" />
-        <item itemvalue="JUnit.PostMethod.test2" />
+        <item itemvalue="JUnit.BookitAuth.test2" />
+        <item itemvalue="JUnit.BookitAuth" />
+        <item itemvalue="JUnit.BookitAuth.test1" />
+        <item itemvalue="JUnit.SpartanAuth.test2" />
+        <item itemvalue="JUnit.SpartanAuth.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +149,7 @@
       <updated>1693756095707</updated>
       <workItem from="1693756096771" duration="2353000" />
       <workItem from="1694346816686" duration="15311000" />
-      <workItem from="1694943772880" duration="9467000" />
+      <workItem from="1694943772880" duration="10614000" />
     </task>
     <task id="LOCAL-00001" summary="project created.">
       <option name="closed" value="true" />
@@ -218,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694957836430</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="week3 is under process...">
+      <option name="closed" value="true" />
+      <created>1694961948663</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694961948663</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
