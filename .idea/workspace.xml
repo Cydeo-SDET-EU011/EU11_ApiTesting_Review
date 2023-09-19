@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="264b72bb-6392-463e-8a36-9272de880517" name="Changes" comment="week3 is under process...">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week3/BookitAuth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week3/SpartanAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/offieHour/week1/task.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +148,8 @@
       <updated>1693756095707</updated>
       <workItem from="1693756096771" duration="2353000" />
       <workItem from="1694346816686" duration="15311000" />
-      <workItem from="1694943772880" duration="10614000" />
+      <workItem from="1694943772880" duration="10968000" />
+      <workItem from="1695129276329" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="project created.">
       <option name="closed" value="true" />
@@ -223,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694961948663</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="week3 is under process...">
+      <option name="closed" value="true" />
+      <created>1694969618719</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694969618719</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

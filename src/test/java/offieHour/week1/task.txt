@@ -1,0 +1,53 @@
+api base url: YOUR_EC2_IP:1000/ords/hr
+
+Task 1 :
+- Given accept type is Json
+- When users sends request to /countries/US
+- Then status code is 200
+- And Content - Type is application/json
+- And response contains United States of America
+
+Task 2 :
+- Given accept type is Json
+- When users sends request to /employees/1
+- Then status code is 404
+
+Task 3 :
+- Given accept type is Json
+- When users sends request to /regions/1
+- Then status code is 200
+- And Content - Type is application/json
+- And response contains Europe
+- And header should contains Date
+- And Transfer-Encoding should be chunked
+
+TASK 4 :
+- Given accept type is Json
+- Path param value- US
+- When users sends request to /countries
+- Then status code is 200
+- And Content - Type is Json
+- And country_id is US
+- And Country_name is United States of America
+ And Region_id is 2
+
+ TASK 5 :
+ - Given accept type is Json
+ - Query param value - q={"department_id":80}
+ - When users sends request to /employees
+ - Then status code is 200
+ - And Content - Type is Json
+ - And all job_ids start with 'SA'
+ - And all department_ids are 80
+ - Count is 25
+
+ TASK 6 :
+ - Given accept type is Json
+ - Query param value q={“region_id":3}
+ - When users sends request to /countries
+ - Then status code is 200
+ - And all regions_id is 3
+ - And count is 6
+ - And hasMore is false
+ - And Country_name are;
+ Australia,China,India,Japan,Malaysia,Singapore
