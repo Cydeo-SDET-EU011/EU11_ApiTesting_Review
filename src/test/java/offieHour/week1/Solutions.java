@@ -37,4 +37,45 @@ public class Solutions {
         assertThat(response.contentType(),equalTo("application/json"));
         assertThat(response.body().asString(),containsString("United States of America"));
     }
+
+    /*
+    Task 2 :
+- Given accept type is Json
+- When users sends request to /employees/1
+- Then status code is 404
+     */
+
+    @Test
+    public void task2(){
+        Response response = given().accept(ContentType.JSON)
+                .when().get("/employees/1");
+
+        System.out.println(response.statusCode());
+        assertThat(response.statusCode(),is(404));
+    }
+
+    /*
+    Task 3 :
+- Given accept type is Json
+- When users sends request to /regions/1
+- Then status code is 200
+- And Content - Type is application/json
+- And response contains Europe
+- And header should contains Date
+- And Transfer-Encoding should be chunked
+
+     */
+
+    @Test
+    public void task3(){
+        given().accept(ContentType.JSON)
+                .when().get("/regions/1")
+                .then().statusCode(200)
+                .and().contentType("application/json")
+                .and().headers("Transfer-Encoding",is("chunked"))
+                .and().body(containsString("Europe"))
+                .extract().response().headers().hasHeaderWithName("Date");
+        ;
+
+    }
 }
