@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="264b72bb-6392-463e-8a36-9272de880517" name="Changes" comment="week3 is under process...">
-      <change afterPath="$PROJECT_DIR$/src/test/java/offieHour/week1/task.txt" afterDir="false" />
+    <list default="true" id="264b72bb-6392-463e-8a36-9272de880517" name="Changes" comment="office hour task is added.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/offieHour/week1/Solutions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +48,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.BookitAuth.test2">
+  <component name="RunManager" selected="JUnit.Solutions.task1">
     <configuration name="BookitAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU11_ApiTesting_Review" />
       <extension name="coverage">
@@ -96,17 +96,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanAuth.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Solutions.task1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU11_ApiTesting_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week3.*" />
+          <option name="PATTERN" value="offieHour.week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week3" />
-      <option name="MAIN_CLASS_NAME" value="week3.SpartanAuth" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="offieHour.week1" />
+      <option name="MAIN_CLASS_NAME" value="offieHour.week1.Solutions" />
+      <option name="METHOD_NAME" value="task1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Solutions.task1" />
         <item itemvalue="JUnit.BookitAuth.test2" />
         <item itemvalue="JUnit.BookitAuth" />
         <item itemvalue="JUnit.BookitAuth.test1" />
         <item itemvalue="JUnit.SpartanAuth.test2" />
-        <item itemvalue="JUnit.SpartanAuth.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +149,8 @@
       <workItem from="1693756096771" duration="2353000" />
       <workItem from="1694346816686" duration="15311000" />
       <workItem from="1694943772880" duration="10968000" />
-      <workItem from="1695129276329" duration="300000" />
+      <workItem from="1695129276329" duration="1021000" />
+      <workItem from="1695218050511" duration="3483000" />
     </task>
     <task id="LOCAL-00001" summary="project created.">
       <option name="closed" value="true" />
@@ -231,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694969618719</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="office hour task is added.">
+      <option name="closed" value="true" />
+      <created>1695129650995</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695129650995</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +262,7 @@
     <MESSAGE value="several tests are added." />
     <MESSAGE value="week2 is added." />
     <MESSAGE value="week3 is under process..." />
-    <option name="LAST_COMMIT_MESSAGE" value="week3 is under process..." />
+    <MESSAGE value="office hour task is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="office hour task is added." />
   </component>
 </project>
