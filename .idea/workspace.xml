@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="264b72bb-6392-463e-8a36-9272de880517" name="Changes" comment="task2 and task3 are solved.">
+    <list default="true" id="264b72bb-6392-463e-8a36-9272de880517" name="Changes" comment="all tasks are solved.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/XmlTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/offieHour/week1/Solutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/offieHour/week1/Solutions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week3/POJO/AllSpartans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week3/POJO/AllSpartans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week3/POJOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week3/POJOTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,66 +50,18 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Solutions.task6">
-    <configuration name="Solutions.task2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.XmlTest.test1">
+    <configuration name="POJOTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU11_ApiTesting_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="offieHour.week1.*" />
+          <option name="PATTERN" value="week3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="offieHour.week1" />
-      <option name="MAIN_CLASS_NAME" value="offieHour.week1.Solutions" />
-      <option name="METHOD_NAME" value="task2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solutions.task3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU11_ApiTesting_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="offieHour.week1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="offieHour.week1" />
-      <option name="MAIN_CLASS_NAME" value="offieHour.week1.Solutions" />
-      <option name="METHOD_NAME" value="task3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solutions.task4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU11_ApiTesting_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="offieHour.week1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="offieHour.week1" />
-      <option name="MAIN_CLASS_NAME" value="offieHour.week1.Solutions" />
-      <option name="METHOD_NAME" value="task4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solutions.task5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU11_ApiTesting_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="offieHour.week1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="offieHour.week1" />
-      <option name="MAIN_CLASS_NAME" value="offieHour.week1.Solutions" />
-      <option name="METHOD_NAME" value="task5" />
+      <option name="PACKAGE_NAME" value="week3" />
+      <option name="MAIN_CLASS_NAME" value="week3.POJOTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,13 +83,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XmlTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU11_ApiTesting_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.XmlTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XmlTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU11_ApiTesting_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.XmlTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XmlTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU11_ApiTesting_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.XmlTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.XmlTest.test1" />
+        <item itemvalue="JUnit.XmlTest.test3" />
+        <item itemvalue="JUnit.XmlTest.test2" />
+        <item itemvalue="JUnit.POJOTest.test2" />
         <item itemvalue="JUnit.Solutions.task6" />
-        <item itemvalue="JUnit.Solutions.task5" />
-        <item itemvalue="JUnit.Solutions.task4" />
-        <item itemvalue="JUnit.Solutions.task3" />
-        <item itemvalue="JUnit.Solutions.task2" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +153,9 @@
       <workItem from="1694346816686" duration="15311000" />
       <workItem from="1694943772880" duration="10968000" />
       <workItem from="1695129276329" duration="1021000" />
-      <workItem from="1695218050511" duration="8648000" />
+      <workItem from="1695218050511" duration="8788000" />
+      <workItem from="1695247364715" duration="683000" />
+      <workItem from="1695556902229" duration="2255000" />
     </task>
     <task id="LOCAL-00001" summary="project created.">
       <option name="closed" value="true" />
@@ -257,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695224595824</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="all tasks are solved.">
+      <option name="closed" value="true" />
+      <created>1695229178725</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695229178725</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +294,7 @@
     <MESSAGE value="office hour task is added." />
     <MESSAGE value="task1 is solved." />
     <MESSAGE value="task2 and task3 are solved." />
-    <option name="LAST_COMMIT_MESSAGE" value="task2 and task3 are solved." />
+    <MESSAGE value="all tasks are solved." />
+    <option name="LAST_COMMIT_MESSAGE" value="all tasks are solved." />
   </component>
 </project>

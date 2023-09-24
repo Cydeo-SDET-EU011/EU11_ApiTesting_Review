@@ -12,6 +12,6 @@ import java.util.*;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class AllSpartans {
 
-    @JsonProperty(" ")
+    //@JsonProperty("")
     private List<SingleSpartan> spartans;
 }

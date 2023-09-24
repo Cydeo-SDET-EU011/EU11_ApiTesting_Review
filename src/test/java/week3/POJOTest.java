@@ -15,7 +15,7 @@ public class POJOTest {
 
     @BeforeAll
     public static void init() {
-        //RestAssured.baseURI = "http://54.152.219.47:8000";
+        RestAssured.baseURI = "http://54.152.219.47:8000";
     }
 
 
