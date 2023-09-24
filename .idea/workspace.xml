@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="264b72bb-6392-463e-8a36-9272de880517" name="Changes" comment="xml test is added.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/SchemaValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/TimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/allSpartanSchema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/singleSpartanSchema.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week3/POJOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week3/POJOTest.java" afterDir="false" />
+    <list default="true" id="264b72bb-6392-463e-8a36-9272de880517" name="Changes" comment="schema validation is added.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/ParametrizationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +47,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TimeTest.test1">
+  <component name="RunManager" selected="JUnit.ParametrizationTest.test1">
     <configuration name="POJOTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU11_ApiTesting_Review" />
       <extension name="coverage">
@@ -65,6 +59,22 @@
       <option name="PACKAGE_NAME" value="week3" />
       <option name="MAIN_CLASS_NAME" value="week3.POJOTest" />
       <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParametrizationTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU11_ApiTesting_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.ParametrizationTest" />
+      <option name="METHOD_NAME" value="test1(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,29 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XmlTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU11_ApiTesting_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.XmlTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParametrizationTest.test1" />
         <item itemvalue="JUnit.TimeTest.test1" />
         <item itemvalue="JUnit.SchemaValidation.test2" />
         <item itemvalue="JUnit.SchemaValidation.test1" />
         <item itemvalue="JUnit.POJOTest.test2" />
-        <item itemvalue="JUnit.XmlTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +152,7 @@
       <workItem from="1695129276329" duration="1021000" />
       <workItem from="1695218050511" duration="8788000" />
       <workItem from="1695247364715" duration="683000" />
-      <workItem from="1695556902229" duration="4542000" />
+      <workItem from="1695556902229" duration="5776000" />
     </task>
     <task id="LOCAL-00001" summary="project created.">
       <option name="closed" value="true" />
@@ -280,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695559544117</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="schema validation is added.">
+      <option name="closed" value="true" />
+      <created>1695562212086</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1695562212086</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +309,7 @@
     <MESSAGE value="task2 and task3 are solved." />
     <MESSAGE value="all tasks are solved." />
     <MESSAGE value="xml test is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="xml test is added." />
+    <MESSAGE value="schema validation is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="schema validation is added." />
   </component>
 </project>
