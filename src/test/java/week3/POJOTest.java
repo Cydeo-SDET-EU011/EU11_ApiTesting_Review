@@ -38,7 +38,8 @@ public class POJOTest {
                 .when().get("/api/spartans");
 
         JsonPath jsonPath = response.jsonPath();
-        AllSpartans spartans = jsonPath.getObject("",AllSpartans.class);
+        AllSpartans spartans = jsonPath.getObject("List",AllSpartans.class);
+
 
         System.out.println(spartans);
     }
