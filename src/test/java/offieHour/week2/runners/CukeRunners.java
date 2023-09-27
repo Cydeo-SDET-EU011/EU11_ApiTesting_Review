@@ -12,7 +12,7 @@ import org.junit.runner.*;
         features = "src/test/resources/features",
         glue = "offieHour/week2/steps",
         dryRun = false,
-        tags = ""
+        tags = "@wip"
 
 )
 public class CukeRunners {

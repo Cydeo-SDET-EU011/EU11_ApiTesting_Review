@@ -33,4 +33,5 @@ And payload should contains following information
 country abbreviation is US
 country United States
 place name Fairfax
-each places must contains fairfax as a value each post code must start with 22
+each places must contains fairfax as a value
+each post code must start with 22

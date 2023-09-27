@@ -2,6 +2,7 @@ package offieHour.week2.steps;
 
 import io.cucumber.java.en.*;
 import io.restassured.http.*;
+import io.restassured.path.json.*;
 import io.restassured.response.*;
 import io.restassured.specification.*;
 
@@ -16,6 +17,8 @@ public class StepDefinition {
     RequestSpecification reqSpec;
     Response response;
 
+    String state;
+
     @Given("Accept application\\/json")
     public void accept_application_json() {
         reqSpec = given().accept(ContentType.JSON);
@@ -28,7 +31,12 @@ public class StepDefinition {
 
     @When("I send a GET request to {string} endpoint")
     public void i_send_a_get_request_to_endpoint(String endPoint) {
-        response = reqSpec.when().get("https://www.zippopotam.us" + endPoint + "/{zipcode}");
+        if(state != null){
+            response = reqSpec.when().get("https://www.zippopotam.us" + endPoint + "/{state}/{city}");
+        }else{
+            response = reqSpec.when().get("https://www.zippopotam.us" + endPoint + "/{zipcode}");
+        }
+
     }
 
     @Then("status code must be {int}")
@@ -62,13 +70,30 @@ public class StepDefinition {
                 }else{
                     assertThat(response.path("'" + key +"'"),is(value));
                 }
-
-
-
         }
-
-
-
-
     }
+
+    @Given("path state is {string}")
+    public void path_state_is(String state) {
+        this.state = state;
+        reqSpec.and().pathParam("state",state);
+    }
+    @Given("path city is {string}")
+    public void path_city_is(String city) {
+        reqSpec.and().pathParam("city",city);
+    }
+    @Then("each places must contains {string} as a value")
+    public void each_places_must_contains_as_a_value(String cityName) {
+        JsonPath jsonPath = response.jsonPath();
+        List<String> cityNames = jsonPath.getList("places.'place name'");
+        assertThat(cityNames,everyItem(containsString(cityName)));
+    }
+
+    @Then("each post code must start with {string}")
+    public void each_post_code_must_start_with(String num) {
+        JsonPath jsonPath = response.jsonPath();
+        List<String> postCodes = jsonPath.getList("places.'post code'");
+        assertThat(postCodes,everyItem(startsWith(num)));
+    }
+
 }
