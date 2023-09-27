@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="264b72bb-6392-463e-8a36-9272de880517" name="Changes" comment="ParametrizationTest is added.">
+    <list default="true" id="264b72bb-6392-463e-8a36-9272de880517" name="Changes" comment="office hour week2 task is added.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/offieHour/week2/runners/CukeRunners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/offieHour/week2/steps/StepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/solutiion.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/offieHour/week2/task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/offieHour/week2/task.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,19 +58,18 @@
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU11_ApiTesting_Review\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ParametrizationTest.test4">
-    <configuration name="ParametrizationTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CukeRunners">
+    <configuration name="CukeRunners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU11_ApiTesting_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week4.*" />
+          <option name="PATTERN" value="offieHour.week2.runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.ParametrizationTest" />
-      <option name="METHOD_NAME" value="test1(int)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="offieHour.week2.runners" />
+      <option name="MAIN_CLASS_NAME" value="offieHour.week2.runners.CukeRunners" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CukeRunners" />
         <item itemvalue="JUnit.ParametrizationTest.test4" />
         <item itemvalue="JUnit.ParametrizationTest.test3 (1)" />
         <item itemvalue="JUnit.ParametrizationTest.test3" />
         <item itemvalue="JUnit.ParametrizationTest.test2" />
-        <item itemvalue="JUnit.ParametrizationTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +163,8 @@
       <workItem from="1695218050511" duration="8788000" />
       <workItem from="1695247364715" duration="683000" />
       <workItem from="1695556902229" duration="8874000" />
-      <workItem from="1695754856828" duration="329000" />
+      <workItem from="1695754856828" duration="1583000" />
+      <workItem from="1695812844450" duration="9350000" />
     </task>
     <task id="LOCAL-00001" summary="project created.">
       <option name="closed" value="true" />
@@ -305,7 +310,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695566073507</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="office hour week2 task is added.">
+      <option name="closed" value="true" />
+      <created>1695755649690</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1695755649690</updated>
+    </task>
+    <task id="LOCAL-00020" summary="office hour week2 task is added.">
+      <option name="closed" value="true" />
+      <created>1695755675879</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1695755675879</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +355,7 @@
     <MESSAGE value="xml test is added." />
     <MESSAGE value="schema validation is added." />
     <MESSAGE value="ParametrizationTest is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="ParametrizationTest is added." />
+    <MESSAGE value="office hour week2 task is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="office hour week2 task is added." />
   </component>
 </project>
