@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="264b72bb-6392-463e-8a36-9272de880517" name="Changes" comment="office hour week2 task is being solved...">
+    <list default="true" id="264b72bb-6392-463e-8a36-9272de880517" name="Changes" comment="office hour week2 task is  solved...">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week5/MockServerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week5/RequestSpecs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/offieHour/week2/runners/CukeRunners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/offieHour/week2/runners/CukeRunners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/offieHour/week2/steps/StepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/offieHour/week2/steps/StepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/offieHour/week2/task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/offieHour/week2/task.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/solutiion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/solutiion.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU11_ApiTesting_Review\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CukeRunners">
+  <component name="RunManager" selected="JUnit.MockServerTest.test1">
     <configuration name="CukeRunners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU11_ApiTesting_Review" />
       <extension name="coverage">
@@ -73,49 +71,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParametrizationTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MockServerTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU11_ApiTesting_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week4.*" />
+          <option name="PATTERN" value="week5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.ParametrizationTest" />
-      <option name="METHOD_NAME" value="test2(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParametrizationTest.test3 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU11_ApiTesting_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.ParametrizationTest" />
-      <option name="METHOD_NAME" value="test3(int,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParametrizationTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EU11_ApiTesting_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.ParametrizationTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="week5" />
+      <option name="MAIN_CLASS_NAME" value="week5.MockServerTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,13 +103,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RequestSpecs.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU11_ApiTesting_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week5" />
+      <option name="MAIN_CLASS_NAME" value="week5.RequestSpecs" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RequestSpecs.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU11_ApiTesting_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week5" />
+      <option name="MAIN_CLASS_NAME" value="week5.RequestSpecs" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MockServerTest.test1" />
+        <item itemvalue="JUnit.RequestSpecs.test2" />
+        <item itemvalue="JUnit.RequestSpecs.test1" />
         <item itemvalue="JUnit.CukeRunners" />
         <item itemvalue="JUnit.ParametrizationTest.test4" />
-        <item itemvalue="JUnit.ParametrizationTest.test3 (1)" />
-        <item itemvalue="JUnit.ParametrizationTest.test3" />
-        <item itemvalue="JUnit.ParametrizationTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +161,8 @@
       <workItem from="1695247364715" duration="683000" />
       <workItem from="1695556902229" duration="8874000" />
       <workItem from="1695754856828" duration="1583000" />
-      <workItem from="1695812844450" duration="11772000" />
+      <workItem from="1695812844450" duration="12232000" />
+      <workItem from="1696161598567" duration="4235000" />
     </task>
     <task id="LOCAL-00001" summary="project created.">
       <option name="closed" value="true" />
@@ -333,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695830698892</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="office hour week2 task is  solved...">
+      <option name="closed" value="true" />
+      <created>1695833487621</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1695833487621</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,6 +371,7 @@
     <MESSAGE value="ParametrizationTest is added." />
     <MESSAGE value="office hour week2 task is added." />
     <MESSAGE value="office hour week2 task is being solved..." />
-    <option name="LAST_COMMIT_MESSAGE" value="office hour week2 task is being solved..." />
+    <MESSAGE value="office hour week2 task is  solved..." />
+    <option name="LAST_COMMIT_MESSAGE" value="office hour week2 task is  solved..." />
   </component>
 </project>
